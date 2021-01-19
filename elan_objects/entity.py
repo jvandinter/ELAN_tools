@@ -17,10 +17,10 @@ class Entity(object):
         if not existing_dir :
             current_dir.mkdir(exist_ok=True)
             current_dir.chmod(0o750)
-            os.chown(current_dir.resolve(),10619,12964) #sboymans:cuppen
+            os.chown(current_dir.resolve(),12369,63564)#jvandinter:pmc_vanheesch
             id_file.touch()
             id_file.chmod(0o700)
-            os.chown(id_file.resolve(),10619,12964) #sboymans:cuppen
+            os.chown(id_file.resolve(),12369,63564)#jvandinter:pmc_vanheesch
         elif existing_dir != current_dir:
             existing_dir.rename(current_dir)
 

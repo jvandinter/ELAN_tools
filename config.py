@@ -1,5 +1,5 @@
-elan_uri = 'http://umcu.elabjournal.com'
+elan_uri = 'http://pmc.elabjournal.com'
 
 elan_key = ''
 
-project_root = '/hpc/cog_bioinf/cuppen/personal_data/sander/project_test'
+project_root = '/hpc/pmc_vanheesch/projects/'
